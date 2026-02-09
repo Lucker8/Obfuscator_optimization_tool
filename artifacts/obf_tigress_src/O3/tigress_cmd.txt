@@ -1,0 +1,1 @@
+tigress --Seed=0 --Transform=Flatten --Functions=main --Transform=EncodeArithmetic --Functions=main --out=/home/peter/Desktop/Master\ Thesis/artifacts/obf_tigress_src/O3/unified_obf.c /home/peter/Desktop/Master\ Thesis/pipeline_scripts/c_programs/unified.c 

@@ -1,0 +1,79 @@
+{
+  "date_utc": "2026-02-07T19:47:08Z",
+  "unobf": {
+    "O0": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O0/bench",
+      "bin_bytes": 18568,
+      "seconds": 0.34,
+      "maxrss_kb": 2432,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O1": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O1/bench",
+      "bin_bytes": 14472,
+      "seconds": 0.31,
+      "maxrss_kb": 2560,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O2": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench",
+      "bin_bytes": 22664,
+      "seconds": 0.32,
+      "maxrss_kb": 2432,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O3": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O3/bench",
+      "bin_bytes": 22664,
+      "seconds": 0.29,
+      "maxrss_kb": 2560,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    }
+  },
+  "obf": {
+    "O0": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_tigress/O0/bench",
+      "bin_bytes": 419976,
+      "seconds": 0.34,
+      "maxrss_kb": 4352,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O1": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_tigress/O1/bench",
+      "bin_bytes": 415880,
+      "seconds": 0.31,
+      "maxrss_kb": 4352,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O2": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_tigress/O2/bench",
+      "bin_bytes": 239752,
+      "seconds": 0.30,
+      "maxrss_kb": 4224,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    },
+    "O3": {
+      "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_tigress/O3/bench",
+      "bin_bytes": 243848,
+      "seconds": 0.31,
+      "maxrss_kb": 4224,
+      "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029",
+      "perf_enabled": 0,
+      "perf": {}
+    }
+  }
+}

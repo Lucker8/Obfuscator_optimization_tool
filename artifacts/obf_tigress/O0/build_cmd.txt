@@ -1,0 +1,1 @@
+gcc  -std=c11 -Wall -Wextra -pedantic -O0  /home/peter/Desktop/Master Thesis/artifacts/obf_tigress_src/O0/unified_obf.c -o /home/peter/Desktop/Master Thesis/artifacts/obf_tigress/O0/bench 

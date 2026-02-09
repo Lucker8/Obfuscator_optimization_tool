@@ -1,0 +1,34 @@
+// Ops:
+//  1: even/odd                -> n
+//  2: armstrong               -> n
+//  3: average                 -> count, then count numbers
+//  4: decimal to binary       -> n
+//  5: date diff Y M D         -> y1 m1 d1 y2 m2 d2
+//  6: max in array            -> n, then n ints
+//  7: quicksort               -> n, then n ints (prints sorted)
+//  8: tree traversals (BST)   -> n, then n ints (prints inorder/pre/post)
+//  9: binary search           -> n, then n ints (sorted), then target (prints index or -1)
+// 10: dijkstra (matrix)       -> n, then n*n ints (-1 no edge), then src (prints dist list)
+//
+
+folder structure legend:
+
+src/benchmark.c
+scripts/build.sh
+scripts/gen_inputs.py
+scripts/correctness.sh
+scripts/measure.sh
+build/O0/bench
+build/O1/bench
+...
+
+TODO: 
+Stabilize hashes!!!
+
+Binary size (already in measure.sh)
+
+perf stat counters (instructions, cycles, branch-misses, cache-misses) - great for obfuscation overhead, if perf is available:
+
+wrap the run with perf stat -e instructions,cycles,branches,branch-misses,cache-misses ...
+
+Output checksum (already captured as SHA-256)

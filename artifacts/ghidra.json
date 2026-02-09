@@ -1,0 +1,175 @@
+{
+  "date_utc": "2026-02-07T20:05:34Z",
+  "unobf": {
+    "/home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench": {
+      "id": "bench__544dfc60d6ac",
+      "date_utc": "2026-02-07T20:04:03Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__544dfc60d6ac.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/logs/bench__544dfc60d6ac.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 14068,
+      "metrics": {
+        "binary_bytes": 22664,
+        "decompiled_bytes": 47703,
+        "functions": 36,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 318,
+        "decompiled_chars": 47703,
+        "decompiled_words": 4936,
+        "decompiled_lines": 1622
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/unobf/O1/bench": {
+      "id": "bench__578d9066a643",
+      "date_utc": "2026-02-07T20:03:49Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O1/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__578d9066a643.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/logs/bench__578d9066a643.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 12386,
+      "metrics": {
+        "binary_bytes": 14472,
+        "decompiled_bytes": 22326,
+        "functions": 36,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 34,
+        "decompiled_chars": 22326,
+        "decompiled_words": 2581,
+        "decompiled_lines": 989
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/unobf/O3/bench": {
+      "id": "bench__c6b94066b4be",
+      "date_utc": "2026-02-07T20:04:18Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O3/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__c6b94066b4be.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/logs/bench__c6b94066b4be.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 14200,
+      "metrics": {
+        "binary_bytes": 22664,
+        "decompiled_bytes": 61113,
+        "functions": 38,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 395,
+        "decompiled_chars": 61113,
+        "decompiled_words": 6429,
+        "decompiled_lines": 1978
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/unobf/O0/bench": {
+      "id": "bench__fb53aa8cc78a",
+      "date_utc": "2026-02-07T20:03:37Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O0/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__fb53aa8cc78a.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/logs/bench__fb53aa8cc78a.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 15789,
+      "metrics": {
+        "binary_bytes": 18568,
+        "decompiled_bytes": 26091,
+        "functions": 56,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 66,
+        "decompiled_chars": 26091,
+        "decompiled_words": 3254,
+        "decompiled_lines": 1308
+      }
+    }
+  },
+  "obf": {
+    "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O2/bench": {
+      "id": "bench__246f2cb48251",
+      "date_utc": "2026-02-07T20:05:17Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O2/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__246f2cb48251.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/logs/bench__246f2cb48251.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 16525,
+      "metrics": {
+        "binary_bytes": 43208,
+        "decompiled_bytes": 169311,
+        "functions": 39,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 99,
+        "decompiled_chars": 169311,
+        "decompiled_words": 17694,
+        "decompiled_lines": 5437
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O0/bench": {
+      "id": "bench__59222efe5434",
+      "date_utc": "2026-02-07T20:04:47Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O0/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__59222efe5434.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/logs/bench__59222efe5434.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 28853,
+      "metrics": {
+        "binary_bytes": 59584,
+        "decompiled_bytes": 203775,
+        "functions": 49,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 104,
+        "decompiled_chars": 203775,
+        "decompiled_words": 17733,
+        "decompiled_lines": 5183
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O1/bench": {
+      "id": "bench__746c83828b1f",
+      "date_utc": "2026-02-07T20:05:01Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O1/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__746c83828b1f.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/logs/bench__746c83828b1f.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 14055,
+      "metrics": {
+        "binary_bytes": 43208,
+        "decompiled_bytes": 146550,
+        "functions": 51,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 85,
+        "decompiled_chars": 146550,
+        "decompiled_words": 17174,
+        "decompiled_lines": 5426
+      }
+    },
+    "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O3/bench": {
+      "id": "bench__efde64f152a8",
+      "date_utc": "2026-02-07T20:05:34Z",
+      "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/obf_llvm/O3/bench",
+      "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__efde64f152a8.c",
+      "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/logs/bench__efde64f152a8.log",
+      "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+      "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+      "exit_code": 0,
+      "analysis_time_ms": 16397,
+      "metrics": {
+        "binary_bytes": 39112,
+        "decompiled_bytes": 154347,
+        "functions": 40,
+        "decompile_failures": 0,
+        "undefined_type_mentions": 80,
+        "decompiled_chars": 154347,
+        "decompiled_words": 16247,
+        "decompiled_lines": 4979
+      }
+    }
+  }
+}

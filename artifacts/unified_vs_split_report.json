@@ -1,0 +1,664 @@
+{
+  "ghidra": {
+    "split_summary": {
+      "obf": {},
+      "unobf": {}
+    },
+    "unified_summary": {
+      "obf": {
+        "O0": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 137694,
+            "mean": 137694,
+            "median": 137694,
+            "min": 137694
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 419976,
+            "mean": 419976,
+            "median": 419976,
+            "min": 419976
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 24980,
+            "mean": 24980,
+            "median": 24980,
+            "min": 24980
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 24980,
+            "mean": 24980,
+            "median": 24980,
+            "min": 24980
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1239,
+            "mean": 1239,
+            "median": 1239,
+            "min": 1239
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 3072,
+            "mean": 3072,
+            "median": 3072,
+            "min": 3072
+          },
+          "functions": {
+            "count": 1,
+            "max": 56,
+            "mean": 56,
+            "median": 56,
+            "min": 56
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 44,
+            "mean": 44,
+            "median": 44,
+            "min": 44
+          }
+        },
+        "O1": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 137740,
+            "mean": 137740,
+            "median": 137740,
+            "min": 137740
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 415880,
+            "mean": 415880,
+            "median": 415880,
+            "min": 415880
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 12841,
+            "mean": 12841,
+            "median": 12841,
+            "min": 12841
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 12841,
+            "mean": 12841,
+            "median": 12841,
+            "min": 12841
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 659,
+            "mean": 659,
+            "median": 659,
+            "min": 659
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 1596,
+            "mean": 1596,
+            "median": 1596,
+            "min": 1596
+          },
+          "functions": {
+            "count": 1,
+            "max": 37,
+            "mean": 37,
+            "median": 37,
+            "min": 37
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 20,
+            "mean": 20,
+            "median": 20,
+            "min": 20
+          }
+        },
+        "O2": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 135702,
+            "mean": 135702,
+            "median": 135702,
+            "min": 135702
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 239752,
+            "mean": 239752,
+            "median": 239752,
+            "min": 239752
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 38538,
+            "mean": 38538,
+            "median": 38538,
+            "min": 38538
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 38538,
+            "mean": 38538,
+            "median": 38538,
+            "min": 38538
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1340,
+            "mean": 1340,
+            "median": 1340,
+            "min": 1340
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 4204,
+            "mean": 4204,
+            "median": 4204,
+            "min": 4204
+          },
+          "functions": {
+            "count": 1,
+            "max": 39,
+            "mean": 39,
+            "median": 39,
+            "min": 39
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 130,
+            "mean": 130,
+            "median": 130,
+            "min": 130
+          }
+        },
+        "O3": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 135343,
+            "mean": 135343,
+            "median": 135343,
+            "min": 135343
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 243848,
+            "mean": 243848,
+            "median": 243848,
+            "min": 243848
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 42132,
+            "mean": 42132,
+            "median": 42132,
+            "min": 42132
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 42132,
+            "mean": 42132,
+            "median": 42132,
+            "min": 42132
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1451,
+            "mean": 1451,
+            "median": 1451,
+            "min": 1451
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 4687,
+            "mean": 4687,
+            "median": 4687,
+            "min": 4687
+          },
+          "functions": {
+            "count": 1,
+            "max": 39,
+            "mean": 39,
+            "median": 39,
+            "min": 39
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 160,
+            "mean": 160,
+            "median": 160,
+            "min": 160
+          }
+        }
+      },
+      "unobf": {
+        "O0": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 12936,
+            "mean": 12936,
+            "median": 12936,
+            "min": 12936
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 18568,
+            "mean": 18568,
+            "median": 18568,
+            "min": 18568
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 0,
+            "mean": 0,
+            "median": 0,
+            "min": 0
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 24608,
+            "mean": 24608,
+            "median": 24608,
+            "min": 24608
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 24608,
+            "mean": 24608,
+            "median": 24608,
+            "min": 24608
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1229,
+            "mean": 1229,
+            "median": 1229,
+            "min": 1229
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 3064,
+            "mean": 3064,
+            "median": 3064,
+            "min": 3064
+          },
+          "functions": {
+            "count": 1,
+            "max": 56,
+            "mean": 56,
+            "median": 56,
+            "min": 56
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 45,
+            "mean": 45,
+            "median": 45,
+            "min": 45
+          }
+        },
+        "O1": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 12118,
+            "mean": 12118,
+            "median": 12118,
+            "min": 12118
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 14472,
+            "mean": 14472,
+            "median": 14472,
+            "min": 14472
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 0,
+            "mean": 0,
+            "median": 0,
+            "min": 0
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 21497,
+            "mean": 21497,
+            "median": 21497,
+            "min": 21497
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 21497,
+            "mean": 21497,
+            "median": 21497,
+            "min": 21497
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 965,
+            "mean": 965,
+            "median": 965,
+            "min": 965
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 2532,
+            "mean": 2532,
+            "median": 2532,
+            "min": 2532
+          },
+          "functions": {
+            "count": 1,
+            "max": 36,
+            "mean": 36,
+            "median": 36,
+            "min": 36
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 32,
+            "mean": 32,
+            "median": 32,
+            "min": 32
+          }
+        },
+        "O2": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 12952,
+            "mean": 12952,
+            "median": 12952,
+            "min": 12952
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 22664,
+            "mean": 22664,
+            "median": 22664,
+            "min": 22664
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 0,
+            "mean": 0,
+            "median": 0,
+            "min": 0
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 46883,
+            "mean": 46883,
+            "median": 46883,
+            "min": 46883
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 46883,
+            "mean": 46883,
+            "median": 46883,
+            "min": 46883
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1595,
+            "mean": 1595,
+            "median": 1595,
+            "min": 1595
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 4842,
+            "mean": 4842,
+            "median": 4842,
+            "min": 4842
+          },
+          "functions": {
+            "count": 1,
+            "max": 36,
+            "mean": 36,
+            "median": 36,
+            "min": 36
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 324,
+            "mean": 324,
+            "median": 324,
+            "min": 324
+          }
+        },
+        "O3": {
+          "analysis_time_ms": {
+            "count": 1,
+            "max": 13291,
+            "mean": 13291,
+            "median": 13291,
+            "min": 13291
+          },
+          "binary_bytes": {
+            "count": 1,
+            "max": 22664,
+            "mean": 22664,
+            "median": 22664,
+            "min": 22664
+          },
+          "decompile_failures": {
+            "count": 1,
+            "max": 0,
+            "mean": 0,
+            "median": 0,
+            "min": 0
+          },
+          "decompiled_bytes": {
+            "count": 1,
+            "max": 60199,
+            "mean": 60199,
+            "median": 60199,
+            "min": 60199
+          },
+          "decompiled_chars": {
+            "count": 1,
+            "max": 60199,
+            "mean": 60199,
+            "median": 60199,
+            "min": 60199
+          },
+          "decompiled_lines": {
+            "count": 1,
+            "max": 1952,
+            "mean": 1952,
+            "median": 1952,
+            "min": 1952
+          },
+          "decompiled_words": {
+            "count": 1,
+            "max": 6343,
+            "mean": 6343,
+            "median": 6343,
+            "min": 6343
+          },
+          "functions": {
+            "count": 1,
+            "max": 38,
+            "mean": 38,
+            "median": 38,
+            "min": 38
+          },
+          "undefined_type_mentions": {
+            "count": 1,
+            "max": 396,
+            "mean": 396,
+            "median": 396,
+            "min": 396
+          }
+        }
+      }
+    }
+  },
+  "runtime": {
+    "split_summary": {},
+    "unified": {
+      "date_utc": "2026-02-06T10:55:01Z",
+      "obf": {
+        "O0": {
+          "bin_bytes": 419976,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf/O0/bench",
+          "maxrss_kb": 14336,
+          "perf": {
+            "branch-misses": 8932158,
+            "branches": 655940064,
+            "cache-misses": 4399008,
+            "cycles": 1488467447,
+            "instructions": 3283015124
+          },
+          "perf_enabled": 1,
+          "seconds": 0.42,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O1": {
+          "bin_bytes": 415880,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf/O1/bench",
+          "maxrss_kb": 13952,
+          "perf": {
+            "branch-misses": 9384982,
+            "branches": 648199738,
+            "cache-misses": 4383162,
+            "cycles": 1425206920,
+            "instructions": 3034143708
+          },
+          "perf_enabled": 1,
+          "seconds": 0.39,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O2": {
+          "bin_bytes": 239752,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf/O2/bench",
+          "maxrss_kb": 14208,
+          "perf": {
+            "branch-misses": 8974752,
+            "branches": 634087258,
+            "cache-misses": 3373748,
+            "cycles": 1282005286,
+            "instructions": 2999419149
+          },
+          "perf_enabled": 1,
+          "seconds": 0.34,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O3": {
+          "bin_bytes": 243848,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/obf/O3/bench",
+          "maxrss_kb": 14080,
+          "perf": {
+            "branch-misses": 8229466,
+            "branches": 625677679,
+            "cache-misses": 2960537,
+            "cycles": 1263503711,
+            "instructions": 2968855790
+          },
+          "perf_enabled": 1,
+          "seconds": 0.34,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        }
+      },
+      "unobf": {
+        "O0": {
+          "bin_bytes": 18568,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O0/bench",
+          "maxrss_kb": 13696,
+          "perf": {
+            "branch-misses": 8766772,
+            "branches": 654442468,
+            "cache-misses": 3645489,
+            "cycles": 1366397383,
+            "instructions": 3271211111
+          },
+          "perf_enabled": 1,
+          "seconds": 0.37,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O1": {
+          "bin_bytes": 14472,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O1/bench",
+          "maxrss_kb": 13952,
+          "perf": {
+            "branch-misses": 8498429,
+            "branches": 645997317,
+            "cache-misses": 3273932,
+            "cycles": 1245752585,
+            "instructions": 3021808463
+          },
+          "perf_enabled": 1,
+          "seconds": 0.34,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O2": {
+          "bin_bytes": 22664,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench",
+          "maxrss_kb": 13824,
+          "perf": {
+            "branch-misses": 8872617,
+            "branches": 630563550,
+            "cache-misses": 3084957,
+            "cycles": 1243898710,
+            "instructions": 2983834274
+          },
+          "perf_enabled": 1,
+          "seconds": 0.33,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        },
+        "O3": {
+          "bin_bytes": 22664,
+          "binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O3/bench",
+          "maxrss_kb": 13952,
+          "perf": {
+            "branch-misses": 8111985,
+            "branches": 623309174,
+            "cache-misses": 3133842,
+            "cycles": 1207132705,
+            "instructions": 2956747865
+          },
+          "perf_enabled": 1,
+          "seconds": 0.34,
+          "sha256_stdout": "d63fd20813f8de8b72fa74c65495ad3a9fd484647fd981a3bc896a76df61e029"
+        }
+      }
+    }
+  }
+}

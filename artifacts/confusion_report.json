@@ -1,0 +1,371 @@
+{
+  "inputs": {
+    "runtime_tigress": "/home/peter/Desktop/Master Thesis/artifacts/runtime_tigress.json",
+    "runtime_llvm": "/home/peter/Desktop/Master Thesis/artifacts/runtime_llvm.json",
+    "ghidra_tigress": "/home/peter/Desktop/Master Thesis/artifacts/ghidra_tigress.json",
+    "ghidra_llvm": "/home/peter/Desktop/Master Thesis/artifacts/ghidra_llvm.json",
+    "runtime_fallback": "/home/peter/Desktop/Master Thesis/artifacts/runtime.json",
+    "ghidra_fallback": "/home/peter/Desktop/Master Thesis/artifacts/ghidra.json"
+  },
+  "config": {
+    "decomp_metric": "lines",
+    "weights": {
+      "fail": 1.0,
+      "undef": 1.0,
+      "decomp": 1.0,
+      "diff": 1.0
+    },
+    "max_runtime_ratio": null,
+    "max_size_ratio": null
+  },
+  "engines": {
+    "tigress": {
+      "engine": "tigress",
+      "levels": {
+        "O0": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.0,
+            "size_ratio": 22.618267987936235
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 66,
+              "decompiled_lines": 1308,
+              "decompiled_bytes": 26091,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__fb53aa8cc78a.c"
+            },
+            "obf": {
+              "decompile_failures": 1,
+              "undefined_type_mentions": 65,
+              "decompiled_lines": 1289,
+              "decompiled_bytes": 25971,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_tigress/decompiled/bench__76b964dee6f1.c"
+            },
+            "diff_bytes": 38926
+          },
+          "components": {
+            "decompile_failures_rel": 1.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 0.0,
+            "diff_bytes": 38926,
+            "diff_bytes_rel": 1.491932083860335
+          },
+          "score": {
+            "C_raw": 2.491932083860335,
+            "C": 0.6229830209650837,
+            "valid": true
+          }
+        },
+        "O1": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.0,
+            "size_ratio": 28.73687119955777
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 34,
+              "decompiled_lines": 989,
+              "decompiled_bytes": 22326,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__578d9066a643.c"
+            },
+            "obf": {
+              "decompile_failures": 1,
+              "undefined_type_mentions": 22,
+              "decompiled_lines": 662,
+              "decompiled_bytes": 12925,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_tigress/decompiled/bench__3c6efd6963f1.c"
+            },
+            "diff_bytes": 26539
+          },
+          "components": {
+            "decompile_failures_rel": 1.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 0.0,
+            "diff_bytes": 26539,
+            "diff_bytes_rel": 1.188703753471289
+          },
+          "score": {
+            "C_raw": 2.188703753471289,
+            "C": 0.5471759383678223,
+            "valid": true
+          }
+        },
+        "O2": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 0.9375,
+            "size_ratio": 10.57853865160607
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 318,
+              "decompiled_lines": 1622,
+              "decompiled_bytes": 47703,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__544dfc60d6ac.c"
+            },
+            "obf": {
+              "decompile_failures": 1,
+              "undefined_type_mentions": 130,
+              "decompiled_lines": 1344,
+              "decompiled_bytes": 38854,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_tigress/decompiled/bench__6696ecf4c190.c"
+            },
+            "diff_bytes": 73078
+          },
+          "components": {
+            "decompile_failures_rel": 1.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 0.0,
+            "diff_bytes": 73078,
+            "diff_bytes_rel": 1.5319371947256986
+          },
+          "score": {
+            "C_raw": 2.531937194725699,
+            "C": 0.6329842986814247,
+            "valid": true
+          }
+        },
+        "O3": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.0689655172413794,
+            "size_ratio": 10.759265795975997
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 395,
+              "decompiled_lines": 1978,
+              "decompiled_bytes": 61113,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__c6b94066b4be.c"
+            },
+            "obf": {
+              "decompile_failures": 1,
+              "undefined_type_mentions": 160,
+              "decompiled_lines": 1444,
+              "decompiled_bytes": 42267,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_tigress/decompiled/bench__a05507c0d4de.c"
+            },
+            "diff_bytes": 87358
+          },
+          "components": {
+            "decompile_failures_rel": 1.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 0.0,
+            "diff_bytes": 87358,
+            "diff_bytes_rel": 1.4294503624433426
+          },
+          "score": {
+            "C_raw": 2.4294503624433426,
+            "C": 0.6073625906108356,
+            "valid": true
+          }
+        }
+      }
+    },
+    "llvm": {
+      "engine": "llvm",
+      "levels": {
+        "O0": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 2.9705882352941173,
+            "size_ratio": 3.208961654459285
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 66,
+              "decompiled_lines": 1308,
+              "decompiled_bytes": 26091,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__fb53aa8cc78a.c"
+            },
+            "obf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 104,
+              "decompiled_lines": 5183,
+              "decompiled_bytes": 203775,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__59222efe5434.c"
+            },
+            "diff_bytes": 230930
+          },
+          "components": {
+            "decompile_failures_rel": 0.0,
+            "undefined_type_mentions_rel": 0.5757575757575758,
+            "decompiled_lines_rel": 2.962538226299694,
+            "diff_bytes": 230930,
+            "diff_bytes_rel": 8.850944770227281
+          },
+          "score": {
+            "C_raw": 12.389240572284551,
+            "C": 3.097310143071138,
+            "valid": true
+          }
+        },
+        "O1": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.6774193548387097,
+            "size_ratio": 2.985627418463239
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 34,
+              "decompiled_lines": 989,
+              "decompiled_bytes": 22326,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__578d9066a643.c"
+            },
+            "obf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 85,
+              "decompiled_lines": 5426,
+              "decompiled_bytes": 146550,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__746c83828b1f.c"
+            },
+            "diff_bytes": 170840
+          },
+          "components": {
+            "decompile_failures_rel": 0.0,
+            "undefined_type_mentions_rel": 1.5,
+            "decompiled_lines_rel": 4.486349848331648,
+            "diff_bytes": 170840,
+            "diff_bytes_rel": 7.652064857117263
+          },
+          "score": {
+            "C_raw": 13.63841470544891,
+            "C": 3.4096036763622277,
+            "valid": true
+          }
+        },
+        "O2": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.65625,
+            "size_ratio": 1.9064595834804094
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 318,
+              "decompiled_lines": 1622,
+              "decompiled_bytes": 47703,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__544dfc60d6ac.c"
+            },
+            "obf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 99,
+              "decompiled_lines": 5437,
+              "decompiled_bytes": 169311,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__246f2cb48251.c"
+            },
+            "diff_bytes": 218893
+          },
+          "components": {
+            "decompile_failures_rel": 0.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 2.352034525277435,
+            "diff_bytes": 218893,
+            "diff_bytes_rel": 4.588663186801669
+          },
+          "score": {
+            "C_raw": 6.940697712079103,
+            "C": 1.7351744280197758,
+            "valid": true
+          }
+        },
+        "O3": {
+          "gates": {
+            "correctness": "pass",
+            "overhead": "unknown"
+          },
+          "ratios": {
+            "runtime_ratio": 1.5862068965517244,
+            "size_ratio": 1.7257324391104836
+          },
+          "raw": {
+            "unobf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 395,
+              "decompiled_lines": 1978,
+              "decompiled_bytes": 61113,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__c6b94066b4be.c"
+            },
+            "obf": {
+              "decompile_failures": 0,
+              "undefined_type_mentions": 80,
+              "decompiled_lines": 4979,
+              "decompiled_bytes": 154347,
+              "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/obf_llvm/decompiled/bench__efde64f152a8.c"
+            },
+            "diff_bytes": 218627
+          },
+          "components": {
+            "decompile_failures_rel": 0.0,
+            "undefined_type_mentions_rel": 0.0,
+            "decompiled_lines_rel": 1.5171890798786654,
+            "diff_bytes": 218627,
+            "diff_bytes_rel": 3.577422152406198
+          },
+          "score": {
+            "C_raw": 5.094611232284864,
+            "C": 1.273652808071216,
+            "valid": true
+          }
+        }
+      }
+    }
+  },
+  "comparison": {
+    "O3": {
+      "delta_C_tigress_minus_llvm": -0.6662902174603803,
+      "delta_runtime_ratio_tigress_minus_llvm": -0.517241379310345,
+      "delta_size_ratio_tigress_minus_llvm": 9.033533356865513,
+      "delta_diff_rel_tigress_minus_llvm": -2.1479717899628556
+    },
+    "O0": {
+      "delta_C_tigress_minus_llvm": -2.474327122106054,
+      "delta_runtime_ratio_tigress_minus_llvm": -1.9705882352941173,
+      "delta_size_ratio_tigress_minus_llvm": 19.409306333476952,
+      "delta_diff_rel_tigress_minus_llvm": -7.359012686366946
+    },
+    "O1": {
+      "delta_C_tigress_minus_llvm": -2.8624277379944054,
+      "delta_runtime_ratio_tigress_minus_llvm": -0.6774193548387097,
+      "delta_size_ratio_tigress_minus_llvm": 25.75124378109453,
+      "delta_diff_rel_tigress_minus_llvm": -6.4633611036459735
+    },
+    "O2": {
+      "delta_C_tigress_minus_llvm": -1.1021901293383511,
+      "delta_runtime_ratio_tigress_minus_llvm": -0.71875,
+      "delta_size_ratio_tigress_minus_llvm": 8.672079068125662,
+      "delta_diff_rel_tigress_minus_llvm": -3.05672599207597
+    }
+  }
+}

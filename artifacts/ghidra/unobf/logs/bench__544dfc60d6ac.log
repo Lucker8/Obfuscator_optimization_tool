@@ -1,0 +1,121 @@
+openjdk version "21.0.10" 2026-01-20
+OpenJDK Runtime Environment (build 21.0.10+7-Ubuntu-122.04)
+OpenJDK 64-Bit Server VM (build 21.0.10+7-Ubuntu-122.04, mixed mode)
+INFO  Using log config file: jar:file:/home/peter/Desktop/Master%20Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/peter/.config/ghidra/ghidra_11.4.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/peter/.config/ghidra/ghidra_11.4.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (952 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Headless startup complete (2149 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 58 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /home/peter/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/.proj_bench__544dfc60d6ac.xLYGhI/proj_bench__544dfc60d6ac (HeadlessAnalyzer)  
+INFO  Creating project: /home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/.proj_bench__544dfc60d6ac.xLYGhI/proj_bench__544dfc60d6ac (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/.proj_bench__544dfc60d6ac.xLYGhI/proj_bench__544dfc60d6ac (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (AutoImporter)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (AutoImporter)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (AutoImporter)  
+INFO  Additional info:
+Loading file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench?MD5=14a6ffdc0907da8ec4a2fa5d6f62d9dc...
+ELF Relocation Failure: R_X86_64_COPY (5, 0x5) at 00106020 (Symbol = stdout) - Runtime copy not supported (8-bytes)
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'bench' to imported libraries...
+  [libc.so.6] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/bench] - 9 unresolved symbols, no external libraries configured - skipping
+ (AutoImporter)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=accaa036d3bca222a0c4132e3b8e13d625799fd8] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+INFO  Packed database cache: /var/tmp/peter-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.449 secs
+    Apply Data Archives                        0.191 secs
+    Call Convention ID                         0.001 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.332 secs
+    Create Function                            0.007 secs
+    DWARF                                      0.023 secs
+    Data Reference                             0.008 secs
+    Decompiler Switch Analysis                 0.038 secs
+    Decompiler Switch Analysis - One Time      1.287 secs
+    Demangler GNU                              0.011 secs
+    Disassemble Entry Points                   0.231 secs
+    ELF Scalar Operand References              0.049 secs
+    Embedded Media                             0.045 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.036 secs
+    Function Start Search                      0.044 secs
+    Function Start Search After Code           0.001 secs
+    Function Start Search After Data           0.001 secs
+    GCC Exception Handlers                     0.086 secs
+    Non-Returning Functions - Discovered       0.031 secs
+    Non-Returning Functions - Known            0.003 secs
+    Reference                                  0.018 secs
+    Shared Return Calls                        0.019 secs
+    Stack                                      0.164 secs
+    Subroutine References                      0.011 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer            0.333 secs
+-----------------------------------------------------
+     Total Time   3 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts/decompile_all.py (HeadlessAnalyzer)  
+WARN  Decompiling 002b4000, pcode error at 002b4000: Unable to disassemble EXTERNAL block location: 002b4000 (DecompileCallback)  
+WARN  Decompiling 002b4008, pcode error at 002b4008: Unable to disassemble EXTERNAL block location: 002b4008 (DecompileCallback)  
+WARN  Decompiling 002b4010, pcode error at 002b4010: Unable to disassemble EXTERNAL block location: 002b4010 (DecompileCallback)  
+WARN  Decompiling 002b4018, pcode error at 002b4018: Unable to disassemble EXTERNAL block location: 002b4018 (DecompileCallback)  
+WARN  Decompiling 002b4020, pcode error at 002b4020: Unable to disassemble EXTERNAL block location: 002b4020 (DecompileCallback)  
+WARN  Decompiling 002b4028, pcode error at 002b4028: Unable to disassemble EXTERNAL block location: 002b4028 (DecompileCallback)  
+WARN  Decompiling 002b4030, pcode error at 002b4030: Unable to disassemble EXTERNAL block location: 002b4030 (DecompileCallback)  
+WARN  Decompiling 002b4038, pcode error at 002b4038: Unable to disassemble EXTERNAL block location: 002b4038 (DecompileCallback)  
+WARN  Decompiling 002b4040, pcode error at 002b4040: Unable to disassemble EXTERNAL block location: 002b4040 (DecompileCallback)  
+WARN  Decompiling 002b4048, pcode error at 002b4048: Unable to disassemble EXTERNAL block location: 002b4048 (DecompileCallback)  
+WARN  Decompiling 002b4050, pcode error at 002b4050: Unable to disassemble EXTERNAL block location: 002b4050 (DecompileCallback)  
+WARN  Decompiling 002b4058, pcode error at 002b4058: Unable to disassemble EXTERNAL block location: 002b4058 (DecompileCallback)  
+INFO  ANALYZING changes made by post scripts: file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/peter/Desktop/Master Thesis/artifacts/unobf/O2/bench (HeadlessAnalyzer)  
+INFO  REPORT: Save succeeded for: /bench (proj_bench__544dfc60d6ac:/bench) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

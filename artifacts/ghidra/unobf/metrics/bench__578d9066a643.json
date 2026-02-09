@@ -1,0 +1,21 @@
+{
+  "id": "bench__578d9066a643",
+  "date_utc": "2026-02-07T20:03:49Z",
+  "input_binary": "/home/peter/Desktop/Master Thesis/artifacts/unobf/O1/bench",
+  "decompiled_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/decompiled/bench__578d9066a643.c",
+  "log_file": "/home/peter/Desktop/Master Thesis/artifacts/ghidra/unobf/logs/bench__578d9066a643.log",
+  "ghidra_home": "/home/peter/Desktop/Master Thesis/ghidra_11.4.2_PUBLIC",
+  "ghidra_scripts": "/home/peter/Desktop/Master Thesis/pipeline_scripts/ghidra_scripts",
+  "exit_code": 0,
+  "analysis_time_ms": 12386,
+  "metrics": {
+    "binary_bytes": 14472,
+    "decompiled_bytes": 22326,
+    "functions": 36,
+    "decompile_failures": 0,
+    "undefined_type_mentions": 34,
+    "decompiled_chars": 22326,
+    "decompiled_words": 2581,
+    "decompiled_lines": 989
+  }
+}
